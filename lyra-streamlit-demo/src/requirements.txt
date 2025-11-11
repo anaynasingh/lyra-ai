@@ -1,0 +1,7 @@
+streamlit>=1.20
+python-dotenv
+google-generativeai
+scikit-learn
+numpy
+pandas
+langchain
