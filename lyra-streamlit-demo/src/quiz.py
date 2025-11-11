@@ -3,7 +3,7 @@ import streamlit as st
 from datetime import datetime
 
 # Configure Gemini API
-genai.configure(api_key="API_KEY")
+genai.configure(api_key=st.secrets["API_KEY"])
 
 def generate_practice_questions(context, topic, num_questions=5):
     """Generate practice questions based on course material"""
