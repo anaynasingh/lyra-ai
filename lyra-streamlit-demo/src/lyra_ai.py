@@ -3,7 +3,7 @@ import streamlit as st
 from datetime import datetime
 
 # Configure Gemini API
-genai.configure(api_key="API_KEY")
+genai.configure(api_key=st.secrets["API_KEY"])
 
 def generate_personalized_answer(context, query, student_profile):
     """Generate answer adapted to student's learning pace and history"""
