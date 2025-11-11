@@ -1,0 +1,14 @@
+# Contents of /lyra-streamlit-demo/lyra-streamlit-demo/.streamlit/config.toml
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+
+[theme]
+primaryColor = "#F39C12"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F7F7F7"
+textColor = "#000000"
+font = "sans serif"
